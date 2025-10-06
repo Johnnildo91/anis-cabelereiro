@@ -261,8 +261,11 @@ button {
 }
 
 .logo a img {
+     width: 110px;
      z-index: 9999;
      position: relative;
+     left: 35px;
+     top: -10px;
 }
 
 .logo::before {
