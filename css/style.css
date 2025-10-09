@@ -508,9 +508,9 @@ ul.social_icon li a:hover {
      margin-bottom: 30px;
 }
 
-.we_box i {
+.we_box img {
      border-radius: 50%;
-     border: #404040 solid 1px;
+     border: #ed5353 solid 1px;
      width: 210px;
      height: 210px;
      display: flex;
@@ -518,6 +518,7 @@ ul.social_icon li a:hover {
      align-items: center;
      flex-wrap: wrap;
      margin: 0 auto;
+     object-fit: cover;
 }
 
 .we_box h3 {
@@ -528,6 +529,7 @@ ul.social_icon li a:hover {
      color: #2e2d2d;
      padding-top: 30px;
 }
+
 
 
 /** end What We Do section **/
