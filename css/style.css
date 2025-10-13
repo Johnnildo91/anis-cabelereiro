@@ -587,7 +587,7 @@ ul.social_icon li a:hover {
 
 /** Galery section **/
 
-
+/** Experts section **/
 
 .experts {
      background-color: #fff;
@@ -658,6 +658,26 @@ ul.social_icon li a:hover {
 
 
 /** end Experts section **/
+
+
+/** citações section **/
+
+.citacoes_section {
+     background-color: #fff;
+     padding: 90px 0 147px 0;
+     position: relative;
+}
+
+
+.carousel-item img {
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     object-fit: cover;
+     margin-bottom: 10px;
+}
+
+/** end citações section **/
 
 
 /** contact section **/
