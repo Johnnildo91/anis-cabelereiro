@@ -195,7 +195,8 @@ img {
 }
 
 blockquote {
-     margin: 20px 0 20px;
+     max-width: 820px;
+     margin: 0 auto;
      padding: 30px;
 }
 
@@ -261,11 +262,11 @@ button {
 }
 
 .logo a img {
-     width: 350px;
+     width: 100px;
      z-index: 9999;
      position: relative;
-     left: -25px;
-     top: -25px;
+     left: 25%;
+     top: -7px;
 }
 
 .logo::before {
@@ -669,7 +670,7 @@ ul.social_icon li a:hover {
 }
 
 
-.carousel-item img {
+.img-circulo {
      border-radius: 50%;
      width: 120px;
      height: 120px;
