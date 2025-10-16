@@ -511,7 +511,7 @@ ul.social_icon li a:hover {
 
 .we_box img {
      border-radius: 50%;
-     border: #ed5353 solid 1px;
+     border: #e3b645 solid 1px;
      width: 210px;
      height: 210px;
      display: flex;
@@ -665,7 +665,7 @@ ul.social_icon li a:hover {
 
 .citacoes_section {
      background-color: #fff;
-     padding: 90px 0 147px 0;
+     padding: 90px 0 90px 0;
      position: relative;
 }
 
@@ -706,8 +706,8 @@ ul.social_icon li a:hover {
 /** footer **/
 
 .footer {
-     background: #ed5353;
-     padding-top: 60px;
+     background: #e3b645;
+     padding: 60px 0 40px 0;
      text-align: center;
 }
 
