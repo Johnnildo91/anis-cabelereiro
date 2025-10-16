@@ -135,7 +135,7 @@ p {
      margin: 0px;
      font-weight: 400;
      color: #2e2d2d;
-     font-size: 17px;
+     font-size: 15px;
      line-height: 24px;
 }
 
@@ -720,6 +720,15 @@ ul.social_icon li a:hover {
      padding-bottom: 15px;
      display: table;
      text-transform: uppercase;
+}
+
+.whatsapp img {
+     position: fixed;
+     width: 80px;
+     height: 80px;
+     right: 20px;
+     bottom: 50px;
+     object-fit: cover;
 }
 
 .variat {
