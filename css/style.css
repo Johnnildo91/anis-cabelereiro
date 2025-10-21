@@ -257,27 +257,16 @@ button {
      width: 100%;
      height: 86px;
      padding: 24px 60px;
-     background: #fff;
+     background: #2e2d2d;
 }
 
 .logo a img {
      width: 100px;
      z-index: 9999;
      position: relative;
-     left: 25%;
-     top: -7px;
+     left: 50%;
+     top: 0;
 }
-
-.logo::before {
-     position: absolute;
-     content: "";
-     background-color: #2e2d2d;
-     width: 385px;
-     height: 86px;
-     left: -75px;
-     top: -24px;
-}
-
 
 /*-- navigation--*/
 
@@ -288,7 +277,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 8px 20px;
-     color: #2e2d2d;
+     color: #fff;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
@@ -297,7 +286,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #fff;
-     background-color: #2e2d2d;
+     background-color: #e3b645;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -305,7 +294,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #fff;
-     background-color: #2e2d2d;
+     background-color: #e3b645;
 }
 
 .navbar-expand-md .navbar-nav {

@@ -263,6 +263,7 @@
         display: inherit !important;
         padding: 0;
         width: 100%;
+        z-index: 999;
     }
     .navigation .navbar-collapse {
         background: #393939;
