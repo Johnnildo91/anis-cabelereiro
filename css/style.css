@@ -260,12 +260,11 @@ button {
      background: #2e2d2d;
 }
 
-.logo a img {
+.logo_section a img {
+     display: flex;
+     align-items: flex-start;
      width: 100px;
      z-index: 9999;
-     position: relative;
-     left: 50%;
-     top: 0;
 }
 
 /*-- navigation--*/
@@ -338,6 +337,7 @@ ul.social_icon li a:hover {
      width: 370px;
      height: 764px;
      left: 0;
+     z-index: -1;
 }
 
 .banner1 {
