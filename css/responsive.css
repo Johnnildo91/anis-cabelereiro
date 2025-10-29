@@ -194,7 +194,7 @@
 }
 
 @media (max-width: 575px) {
-    .logo {
+    .logo_section {
         text-align: center !important;
         padding-bottom: 6px;
         float: left;

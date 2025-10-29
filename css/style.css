@@ -264,6 +264,7 @@ button {
      display: flex;
      align-items: flex-start;
      width: 100px;
+     height: auto;
      z-index: 9999;
 }
 
