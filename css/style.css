@@ -33,7 +33,7 @@
 }
 
 .container {
-     max-width: 1170px;
+     max-width: 1080px;
 }
 
 html {
@@ -216,6 +216,11 @@ button {
      float: left;
      margin: 0;
      padding: 0;
+}
+
+.row {
+     margin-right: 0;
+     margin-left: 0;
 }
 
 

@@ -222,6 +222,7 @@
     .relative h1 {
         font-size: 34px;
         line-height: 38px;
+        padding-top: 20px;
     }
     .relative p {
         padding-bottom: 18px;
