@@ -271,6 +271,7 @@ button {
      width: 100px;
      height: auto;
      z-index: 9999;
+     margin-left: 20px;
 }
 
 /*-- navigation--*/
@@ -739,14 +740,13 @@ ul.social_icon li a:hover {
 
 ul.conta {
      text-align: left;
-     margin-bottom: 55px;
 }
 
 ul.conta li {
      color: #fff;
      text-align: left;
      padding-bottom: 20px;
-     font-size: 17px;
+     font-size: 16px;
      display: inline-block;
      padding-right: 70px;
 }

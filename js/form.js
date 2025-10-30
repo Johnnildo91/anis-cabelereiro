@@ -20,7 +20,7 @@ function formatPhoneNumber(ddd, numero) {
   return `(${ddd}) ${numero}`;
 }
 
-async function submitLead(nome, telefone) {
+async function submitLead(nome, telefone, email) {
   try {
     const response = await fetch(SUPABASE_URL, {
       method: 'POST',
@@ -31,7 +31,8 @@ async function submitLead(nome, telefone) {
       },
       body: JSON.stringify({
         nome: nome,
-        telefone: telefone
+        telefone: telefone,
+        email: email 
       })
     });
 
@@ -52,8 +53,9 @@ form.addEventListener('submit', async (e) => {
   const nome = document.getElementById('nome').value.trim();
   const ddd = document.getElementById('ddd').value.trim();
   const numero = document.getElementById('numero').value.trim();
+  const email = document.getElementById('email').value.trim();
 
-  if (!nome || !ddd || !numero) {
+  if (!nome || !ddd || !numero || !email) {
     showMessage('Por favor, preencha todos os campos', 'error');
     return;
   }
@@ -73,7 +75,7 @@ form.addEventListener('submit', async (e) => {
 
   try {
     const telefone = formatPhoneNumber(ddd, numero);
-    await submitLead(nome, telefone);
+    await submitLead(nome, telefone, email);
 
     showMessage('Lead cadastrado com sucesso!', 'success');
     form.reset();
