@@ -70,6 +70,11 @@ form.addEventListener('submit', async (e) => {
     return;
   }
 
+  if (!email.includes("@") || !email.includes(".")) {
+    showMessage('Digite um e-mail válido', 'error');
+    return;
+  }
+
   submitBtn.disabled = true;
   submitBtn.textContent = 'Cadastrando...';
 
