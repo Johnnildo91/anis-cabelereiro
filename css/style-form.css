@@ -1,8 +1,18 @@
 /* style-form.css */
 
 #app {
-  width: 100%;
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
+}
+
+#app h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+  font-family: inherit;
 }
 
 .form-group {
@@ -17,12 +27,17 @@ label {
   margin-bottom: 8px;
 }
 
+.form_container{
+  width: 600px;
+  padding: 32px;
+  background: #f9f9f9;
+}
+
 input[type="text"],
 input[type="tel"], select{
   padding: 12px 16px;
   font-size: 16px;
   border: 2px solid #e0e0e0;
-  border-radius: 8px;
   transition: all 0.3s ease;
   font-family: inherit;
 }
@@ -52,7 +67,6 @@ input[type="tel"]:focus {
 }
 
 button[type="submit"] {
-  width: 100%;
   padding: 14px;
   font-size: 16px;
   font-weight: 600;
@@ -103,14 +117,4 @@ button[type="submit"]:disabled {
   background-color: #f8d7da;
   color: #721c24;
   border: 1px solid #f5c6cb;
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 24px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
 }

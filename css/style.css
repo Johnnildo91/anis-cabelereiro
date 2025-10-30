@@ -685,8 +685,9 @@ ul.social_icon li a:hover {
 /** contact section **/
 
 .contact {
-     background: #fff;
-     padding-top: 90px;
+     background-color: #fff;
+     padding-top: 30px;
+     padding-bottom: 10px;
      position: relative;
 }
 
