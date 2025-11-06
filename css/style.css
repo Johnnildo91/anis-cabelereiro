@@ -221,6 +221,7 @@ button {
 .row {
      margin-right: 0;
      margin-left: 0;
+     
 }
 
 
@@ -577,10 +578,6 @@ ul.social_icon li a:hover {
      transition: all .5s;
 }
 
-.about_img figure img:hover {
-     transform: scale(1.2);
-}
-
 /** Galery section **/
 
 /** Experts section **/
@@ -599,7 +596,7 @@ ul.social_icon li a:hover {
 .experts .experts_box {
      text-align: left;
      background-color: #fff;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 .experts .experts_box .experts_img {
@@ -616,11 +613,8 @@ ul.social_icon li a:hover {
      margin-bottom: 20px;
 }
 
-#exp:hover .experts_img figure img {
-     border-top: #fff solid 10px;
-     border-bottom: #fff solid 10px;
-     border-left: #fff solid 10px;
-     border-right: #fff solid 10px;
+.experts_box:hover{
+     transform: scale(1.1);
 }
 
 .experts .experts_box .meet {
@@ -744,7 +738,7 @@ ul.conta {
 }
 
 ul.conta li {
-     color: #fff;
+     color: #2e2d2d;
      text-align: left;
      padding-bottom: 20px;
      font-size: 16px;
@@ -763,7 +757,7 @@ ul.conta li i {
 }
 
 ul.conta li a {
-     color: #fff;
+     color: #2e2d2d;
 }
 
 ul.link_menu li {
