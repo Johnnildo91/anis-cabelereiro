@@ -99,3 +99,12 @@ document.getElementById('ddd').addEventListener('input', (e) => {
 document.getElementById('numero').addEventListener('input', (e) => {
   e.target.value = e.target.value.replace(/\D/g, '');
 });
+
+// === MENU RESPONSIVO ===
+const navbarTogglerIcon = document.getElementById("navbar-toggler-icon");
+const navLink = document.querySelector(".nav-link");
+
+navbarTogglerIcon.addEventListener("click", () => {
+  navbarTogglerIcon.classList.toggle("active");
+  navLink.classList.toggle("active");
+});
