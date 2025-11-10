@@ -51,6 +51,19 @@ $(function () {
        });
      });
 
+     /* Navbar Toggler Menu
+     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+     $(document).ready(function() {
+        $('.navbar-toggler').on('click', function() {
+           $(this).toggleClass('active');
+        });
+
+        // Fechar o menu quando um link for clicado
+        $('.navbar-collapse .nav-link').on('click', function() {
+           $('.navbar-toggler').removeClass('active');
+        });
+     });
+
      /* Product slider 
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
