@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  background-color: #f5f2f2;
 }
 
 #app h2 {
@@ -54,6 +55,11 @@ input[type="tel"]:focus {
   outline: none;
   border-color: #667eea;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.invalid-email {
+  border-color: #e3342f !important;
+  box-shadow: 0 0 0 3px rgba(227, 52, 47, 0.08) !important;
 }
 
 .phone-group {

@@ -18,6 +18,7 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style-form.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
@@ -365,13 +366,132 @@
 
          <div class="container-fluid">
             <div class="row">
-               <div class="col-md-12 px-0">
+               <div class="col-md-6 px-0">
                   <div class="map_main">
                      <div class="map-responsive">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.685940827251!2d-45.38283618849746!3d-3.658842242808865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92ca9c1ba642a2b9%3A0xcc8b1392338f9072!2sAn%C3%ADs%20Cabeleireiro!5e0!3m2!1spt-BR!2sbr!4v1760058124221!5m2!1spt-BR!2sbr" width="600" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                      </div>
                   </div>
                </div>
+
+               <div class="col-md-6 px-0" id="app">
+                  <div class="container">
+                  <h1>Receba ofertas exclusivas</h1>
+                  <form id="leadForm">
+                     <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required
+                        placeholder="Digite seu nome completo"
+                        />
+                     </div>
+
+                     <div class="form-group">
+                        <label for="ddd">Telefone</label>
+                        <div class="phone-group">
+                        <select id="ddd" name="ddd" required>
+                           <option value="" disabled selected>DDD</option>
+                           <option value="11">11</option>
+                           <option value="12">12</option>
+                           <option value="13">13</option>
+                           <option value="14">14</option>
+                           <option value="15">15</option>
+                           <option value="16">16</option>
+                           <option value="17">17</option>
+                           <option value="18">18</option>
+                           <option value="19">19</option>
+                           <option value="21">21</option>
+                           <option value="22">22</option>
+                           <option value="24">24</option>
+                           <option value="27">27</option>
+                           <option value="28">28</option>
+                           <option value="31">31</option>
+                           <option value="32">32</option>
+                           <option value="33">33</option>
+                           <option value="34">34</option>
+                           <option value="35">35</option>
+                           <option value="37">37</option>
+                           <option value="38">38</option>
+                           <option value="41">41</option>
+                           <option value="42">42</option>
+                           <option value="43">43</option>
+                           <option value="44">44</option>
+                           <option value="45">45</option>
+                           <option value="46">46</option>
+                           <option value="47">47</option>
+                           <option value="48">48</option>
+                           <option value="49">49</option>
+                           <option value="51">51</option>
+                           <option value="53">53</option>
+                           <option value="54">54</option>
+                           <option value="55">55</option>
+                           <option value="61">61</option>
+                           <option value="62">62</option>
+                           <option value="63">63</option>
+                           <option value="64">64</option>
+                           <option value="65">65</option>
+                           <option value="66">66</option>
+                           <option value="67">67</option>
+                           <option value="68">68</option>
+                           <option value="69">69</option>
+                           <option value="71">71</option>
+                           <option value="73">73</option>
+                           <option value="74">74</option>
+                           <option value="75">75</option>
+                           <option value="77">77</option>
+                           <option value="79">79</option>
+                           <option value="81">81</option>
+                           <option value="82">82</option>
+                           <option value="83">83</option>
+                           <option value="84">84</option>
+                           <option value="85">85</option>
+                           <option value="86">86</option>
+                           <option value="87">87</option>
+                           <option value="88">88</option>
+                           <option value="89">89</option>
+                           <option value="91">91</option>
+                           <option value="92">92</option>
+                           <option value="93">93</option>
+                           <option value="94">94</option>
+                           <option value="95">95</option>
+                           <option value="96">96</option>
+                           <option value="97">97</option>
+                           <option value="98">98</option>
+                           <option value="99">99</option>
+                        </select>
+                        <input
+                           type="tel"
+                           id="numero"
+                           name="numero"
+                           required
+                           placeholder="Número (Whatsapp)"
+                           maxlength="9"
+                           pattern="[0-9]{8,9}"
+                        />
+                        </div>
+                     </div>
+
+                     <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="Digite seu E-mail"
+                        />
+                     </div>
+
+                     <button type="submit" id="submitBtn">Cadastrar</button>
+
+                     <div id="message" class="message"></div>
+                  </form>
+                  </div>
+               </div>
+
             </div>
          </div>
       </section>
